@@ -31,7 +31,7 @@ export default function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full overflow-x-hidden">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
